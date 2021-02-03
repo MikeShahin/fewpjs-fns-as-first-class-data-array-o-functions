@@ -33,4 +33,3 @@ const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashD
 function exerciseDog(dogName, dogBreed) {
     return routine.map(rt => rt(dogName, dogBreed))
 }
-  
